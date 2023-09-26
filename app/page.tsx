@@ -1,5 +1,5 @@
-import Image from 'next/image'
-import Link from 'next/link'
+import Image from 'next/image';
+import Link from 'next/link';
 
 export default function Home() {
   return (
@@ -10,7 +10,7 @@ export default function Home() {
         it is an optimized way provided by Next
         it will not reload all JS files, just the page contents
       */}
-      <Link href="/users">Users</Link>
+      <Link href='/users'>Users</Link>
     </main>
-  )
+  );
 }
