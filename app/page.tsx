@@ -1,5 +1,6 @@
 import Image from 'next/image';
 import Link from 'next/link';
+import ProductCard from './components/ProductCard';
 
 export default function Home() {
   return (
@@ -11,6 +12,7 @@ export default function Home() {
         it will not reload all JS files, just the page contents
       */}
       <Link href='/users'>Users</Link>
+      <ProductCard/>
     </main>
   );
 }
